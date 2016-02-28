@@ -1,6 +1,7 @@
 body {
-    background:  url(../images/bg-3.png);
+    background:  url(../images/bg-4.png);
     color: #ccc;
+	font-size:12px;
 }
 
 .xdefault-padding{
@@ -47,8 +48,42 @@ font-size:15px;
 	position:relative;
 	margin: 1em;
 }
-.block-right{
-position: absolute;
-top: 10px;
-left: 850px;
+.aboutAmit{
+	position: relative;
+	display: block;
+	float: left;
+	top: -110px;
+	left: 90px;
+	color: #000099;
+	font-weight:bold;
+}
+.aboutAmit a{
+	color: #000099;
+}
+.aboutAmit a:hover {
+    text-decoration: underline;
+}
+
+#Section .RunacoMenu {
+    background: #df3a00 none repeat scroll 0 0;
+    float: left;
+    height: 160px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 40px 0 0 32px;
+    width: 165px;
+}
+#Section .RunacoMenu li {
+    float: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+#Section .RunacoMenu a {
+    color: #fff;
+    text-decoration: none;
+}
+#Section .RunacoMenu a:hover {
+    text-decoration: underline;
 }
